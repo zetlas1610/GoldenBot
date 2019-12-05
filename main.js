@@ -15,7 +15,7 @@ client.on("guildMemberAdd", member => {
   channel.send(`${member} a rejoint le serveur !`);
 });
 
-client.login("TOKEN");
+client.login(TOKEN);
 
 // ------------------------------------------
 
